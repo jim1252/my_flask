@@ -1,0 +1,113 @@
+/* removes margings and padding from all elements
+*{
+	margin:0;
+	padding:0;
+}
+*/
+
+h1{
+	color:black;
+	font-size: 56px;
+}
+
+h2{
+	color:green;
+}
+
+h3{
+	color: #00ff00;
+	font-weight:bold;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+a:hover{
+	color:red;
+}
+
+a:active{
+	color:green;
+}
+
+a:visited{
+	color:yellow;
+}
+
+body{
+	background: #f4f4f4;
+	color: #555555;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	/* Same as above, another way to do it*/
+	font: normal 20px Arial, Helvetica, sans-serif;
+	/* line spacing within paragraph*/
+	line-height:1.6em;
+	margin:0;
+	}
+
+.container{
+	/* width can also be set to exact pixels*/
+	width:80%;
+	margin:auto;
+}
+
+/* to target a class use . */
+.box-1{
+	background-color: #333333;
+	color:#fff;
+
+	/* each individual border */
+	border-left:3px red solid;
+	border-right:3px red solid;
+	border-top:3px red solid;
+	border-bottom:3px red solid;
+	/* Same as above followed by chhanges to parts of the border*/
+	border:3px red solid;
+	border-bottom-width:10px;
+	border-top-style:dotted;
+
+	padding:20px;
+}
+
+/* set secific to container */
+.box-1 h1{
+	font-family: Tahoma;
+	font-weight:800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+
+.box-2{
+	border:5px #ccc dotted;
+	padding:20px;
+	margin:20px 0;
+}
+
+.categories{
+	border:1px #ccc solid;
+	padding:10px;
+	border-radius: 15px;
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+	padding:0;
+	list-style: square;
+}
+
+.categories li{
+	padding-bottom: 5px;
+	border-bottom: dotted 1px #333;
+
+}

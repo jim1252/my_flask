@@ -1,0 +1,13 @@
+
+
+install venv virtual env commands:
+ python -m venv virtual
+ source virtual/Scripts/activate
+
+install flask
+pip install flask
+pip freeze - to check installs
+
+CSS Hex colors
+fff = white
+ccc = light grey
